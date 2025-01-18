@@ -13,7 +13,7 @@ const Main = () => {
         });
     }, [])
     return (
-        <div className="font">
+        <div className="font overflow-hidden">
             <Outlet />
             <Footer />
         </div>
