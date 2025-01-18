@@ -1,8 +1,8 @@
 import { Outlet } from "react-router-dom";
-import Footer from "../Pages/Home/footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect } from "react";
+import Footer from "../Pages/Home/Footer";
 // ..
 const Main = () => {
     useEffect(() => {

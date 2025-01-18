@@ -18,10 +18,10 @@ const Footer = () => {
                         <div className="flex gap-x-5 items-center">
                             <p className="inter text-[18px] font-medium text-white">FOLLOW US</p>
                             <div className="flex gap-x-4">
-                                <div className="w-[32px] h-[32px] hover:text-white transition-colors hover:bg-[#E55027] bg-white rounded-full bg-transparent text-[#01000E] flex justify-center items-center"><IoLogoInstagram className="text-[20px]" /></div>
-                                <div className="w-[32px] h-[32px] hover:text-white transition-colors hover:bg-[#E55027] bg-white rounded-full bg-transparent text-[#01000E] flex justify-center items-center"><FaFacebookF className="text-[14px]" /></div>
-                                <div className="w-[32px] h-[32px] hover:text-white transition-colors hover:bg-[#E55027] bg-white rounded-full bg-transparent text-[#01000E] flex justify-center items-center"><FaSkype className="text-[16px]" /></div>
-                                <div className="w-[32px] h-[32px] hover:text-white transition-colors hover:bg-[#E55027] bg-white rounded-full bg-transparent text-[#01000E] flex justify-center items-center"><FaLinkedinIn className="text-[16px]" /></div>
+                                <button className="w-[32px] h-[32px] hover:text-white transition-colors hover:bg-[#E55027] bg-white rounded-full bg-transparent text-[#01000E] flex justify-center items-center"><IoLogoInstagram className="text-[20px]" /></button>
+                                <button className="w-[32px] h-[32px] hover:text-white transition-colors hover:bg-[#E55027] bg-white rounded-full bg-transparent text-[#01000E] flex justify-center items-center"><FaFacebookF className="text-[14px]" /></button>
+                                <button className="w-[32px] h-[32px] hover:text-white transition-colors hover:bg-[#E55027] bg-white rounded-full bg-transparent text-[#01000E] flex justify-center items-center"><FaSkype className="text-[16px]" /></button>
+                                <button className="w-[32px] h-[32px] hover:text-white transition-colors hover:bg-[#E55027] bg-white rounded-full bg-transparent text-[#01000E] flex justify-center items-center"><FaLinkedinIn className="text-[16px]" /></button>
                             </div>
                         </div>
                     </div>
