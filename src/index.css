@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sora:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font {
+    font-family: "Jost", serif;
+}
+
+.inter {
+    font-family: "Inter", serif;
+}
+
+.tra {
+    transition: all .3s ease-in-out;
+}
+
+.drop ul {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.drop:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 3.5rem;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #E55027;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: all .5s ease-in-out;
+}
+
+.button:hover::after {
+    transform: scaleY(0);
+}
+
+.button:hover svg {
+    transform: rotate(0);
+}
+
+.cont:hover .child {
+    background-color: #1B634Ecc;
+    height: 230px;
+}
+
+.bt2:hover svg {
+    transform: rotate(-45deg);
+}
+
+.cardd:hover h4 {
+    color: #fff;
+}
+
+.cardd:hover p {
+    color: #fff;
+}
+
+.swiper-pagination-bullet {
+    cursor: pointer;
+    background-color: #E55027 !important;
+    border-radius: 0px !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.swiper-pagination-bullet-active {
+    position: relative;
+}
+
+.swiper-pagination-bullet-active::after {
+    content: '';
+    position: absolute;
+    left: -2.69px;
+    top: -3px;
+    width: 15px !important;
+    height: 15px !important;
+    border: 1px solid #E55027;
+}
+
+.empl .swiper-pagination-bullet-active::after {
+    content: '';
+    position: absolute;
+    top: -3.3px;
+    width: 16px !important;
+    height: 16px !important;
+    border: 1px solid #E55027;
+}
+
+.empl .swiper-pagination-bullet-active:nth-child(1)::after {
+    left: -0.13rem;
+}
+
+.empl .swiper-pagination-bullet-active:nth-child(2)::after {
+    left: -0.14rem;
+}
+
+.empl .swiper-pagination-bullet-active:nth-child(3)::after {
+    left: -0.13rem;
+}
+
+.empl .swiper-pagination-bullet-active:nth-child(4)::after {
+    height: 16.2px !important;
+}
+
+.empl .swiper-pagination-bullet-active:nth-child(5)::after {
+    left: -0.13rem;
+}
+
+.empl .swiper-pagination-bullet-active:nth-child(6)::after {
+    top: -3px;
+    height: 16.2px !important;
+}
+
+.swiper-pagination-bullet-active:nth-child(4)::after {
+    content: '';
+    position: absolute;
+    left: -2.4px;
+    top: -3px;
+    width: 15px !important;
+    height: 15px !important;
+    border: 1px solid #E55027;
+}
+
+.swiper-pagination-bullet-active:nth-child(6)::after {
+    content: '';
+    position: absolute;
+    left: -2.1px;
+    top: -3px;
+    width: 15px !important;
+    height: 15px !important;
+    border: 1px solid #E55027;
+}
+
+.triangle {
+    width: 0;
+    height: 332px;
+    /* border-top: 30px solid transparent; */
+    border-right: 80px solid #1B634E;
+    border-bottom: 30px solid transparent;
+}
+
+.line:hover svg {
+    color: #E55027;
+}
+
+.list::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    border-radius: 200px;
+    background: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.list:hover::after {
+    width: 100%;
+}
+
+.t-line:hover>div {
+    background: #1B634E;
+}
+
+.weHover:hover .inn {
+    background-color: #1B634E;
+    color: #fff;
+}
+
+.weHover:hover .inn p {
+    color: #F1ECE9;
+}
+
+.weHover:hover .rec {
+    bottom: -1rem;
+    visibility: visible;
+    transition: .5s;
+    transition-delay: .3s;
+}
+
+.weDown:hover .inn {
+    background-color: #1B634E;
+    color: #fff;
+}
+
+.weDown:hover .inn p {
+    color: #F1ECE9;
+}
+
+.weDown:hover .rec {
+    top: -1rem;
+    visibility: visible;
+    transition: .5s;
+    transition-delay: .3s;
+}
+
+.proHover .proIn {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.proHover:hover .proIn {
+    visibility: visible;
+    opacity: 1;
+}
